@@ -3,9 +3,9 @@ source : https://www.data.gouv.fr/fr/datasets/statistiques-nationales-du-commerc
 <EN> French foreign trade monthly report by region (Gov source) </EN>
 <FR> Statistiques nationales du commerce extérieur (source : Douane) </FR>
 
-This is a sample use case of a set  of foreign trade datasets providing the import/export fiugures for each product and each desitination.
+This is a sample use case of a set  of foreign trade datasets providing the import/export figures for each product and each desitination.
 
-It is used here to get a hierarchical time series dataset for pyaf (Python Automatic Forecasting, https://github.com/antoinecarme/pyaf/issues/9 ) demo pruoses () . 
+It is used here to get a hierarchical time series dataset for pyaf (Python Automatic Forecasting, https://github.com/antoinecarme/pyaf/issues/9 ) demo purposes . 
 
 Pyaf demo uses wine exports  in  euros and kgs per wine type (Champagne, Bordeaux, etc) and variant (white, red, sparkling) for each destination country on a monthly basis (between 2012 and 2016). 
 
