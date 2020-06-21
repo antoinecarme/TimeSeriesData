@@ -1,0 +1,106 @@
+Index(['store', 'date', 'grocery', 'dairy', 'frozen', 'bottle', 'mvpclub',
+       'groccoup', 'meat', 'meatfroz', 'meatcoup', 'fish', 'fishcoup', 'promo',
+       'promcoup', 'produce', 'bulk', 'saladbar', 'prodcoup', 'bulkcoup',
+       'salcoup', 'floral', 'florcoup', 'deli', 'deliself', 'deliexpr',
+       'convfood', 'cheese', 'delicoup', 'bakery', 'pharmacy', 'pharcoup',
+       'gm', 'jewelry', 'cosmetic', 'haba', 'gmcoup', 'camera', 'photofin',
+       'video', 'videoren', 'vidcoup', 'beer', 'wine', 'spirits', 'miscscp',
+       'mancoup', 'custcoun', 'ftgchin', 'ftgccoup', 'ftgital', 'ftgicoup',
+       'daircoup', 'frozcoup', 'habacoup', 'photcoup', 'cosmcoup', 'ssdelicp',
+       'bakcoup', 'liqcoup', 'week', 'date_parsed'],
+      dtype='object')
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 327045 entries, 0 to 327044
+Data columns (total 62 columns):
+ #   Column       Non-Null Count   Dtype         
+---  ------       --------------   -----         
+ 0   store        327045 non-null  int16         
+ 1   date         327045 non-null  object        
+ 2   grocery      324133 non-null  float64       
+ 3   dairy        324133 non-null  float32       
+ 4   frozen       324133 non-null  float32       
+ 5   bottle       324134 non-null  float64       
+ 6   mvpclub      324133 non-null  float32       
+ 7   groccoup     324133 non-null  float64       
+ 8   meat         324133 non-null  float64       
+ 9   meatfroz     324133 non-null  float32       
+ 10  meatcoup     324133 non-null  float32       
+ 11  fish         324134 non-null  float64       
+ 12  fishcoup     324133 non-null  float32       
+ 13  promo        324133 non-null  float64       
+ 14  promcoup     324133 non-null  float32       
+ 15  produce      324133 non-null  float64       
+ 16  bulk         324133 non-null  float64       
+ 17  saladbar     324133 non-null  float32       
+ 18  prodcoup     324133 non-null  float32       
+ 19  bulkcoup     324133 non-null  float32       
+ 20  salcoup      324133 non-null  float32       
+ 21  floral       324133 non-null  float64       
+ 22  florcoup     324133 non-null  float32       
+ 23  deli         324133 non-null  float64       
+ 24  deliself     324133 non-null  float32       
+ 25  deliexpr     325462 non-null  float32       
+ 26  convfood     325462 non-null  float32       
+ 27  cheese       325462 non-null  float32       
+ 28  delicoup     325462 non-null  float32       
+ 29  bakery       325462 non-null  float32       
+ 30  pharmacy     325462 non-null  float32       
+ 31  pharcoup     325462 non-null  float32       
+ 32  gm           325462 non-null  float64       
+ 33  jewelry      325462 non-null  float32       
+ 34  cosmetic     325462 non-null  float32       
+ 35  haba         325462 non-null  float64       
+ 36  gmcoup       325462 non-null  float32       
+ 37  camera       325462 non-null  float64       
+ 38  photofin     325462 non-null  float32       
+ 39  video        325462 non-null  float32       
+ 40  videoren     325462 non-null  float32       
+ 41  vidcoup      325462 non-null  float32       
+ 42  beer         325462 non-null  float64       
+ 43  wine         325462 non-null  float64       
+ 44  spirits      325462 non-null  float32       
+ 45  miscscp      325462 non-null  float32       
+ 46  mancoup      325462 non-null  float64       
+ 47  custcoun     325462 non-null  float64       
+ 48  ftgchin      325462 non-null  float32       
+ 49  ftgccoup     325462 non-null  float32       
+ 50  ftgital      325462 non-null  float32       
+ 51  ftgicoup     325462 non-null  float32       
+ 52  daircoup     325462 non-null  float32       
+ 53  frozcoup     325462 non-null  float32       
+ 54  habacoup     325462 non-null  float32       
+ 55  photcoup     325462 non-null  float32       
+ 56  cosmcoup     325462 non-null  float32       
+ 57  ssdelicp     325462 non-null  float32       
+ 58  bakcoup      325462 non-null  float32       
+ 59  liqcoup      325462 non-null  float32       
+ 60  week         324133 non-null  float64       
+ 61  date_parsed  324133 non-null  datetime64[ns]
+dtypes: datetime64[ns](1), float32(41), float64(18), int16(1), object(1)
+memory usage: 104.2+ MB
+               store        grocery  ...        liqcoup           week
+count  327045.000000  324133.000000  ...  325462.000000  324133.000000
+mean      107.529896   25472.117350  ...      -0.174959     158.036325
+std        85.387684   14069.986401  ...       3.673254     139.364061
+min         0.000000  -31042.960000  ...    -243.550003   -4668.000000
+25%        56.000000   16196.890000  ...       0.000000      41.000000
+50%        92.000000   21702.870000  ...       0.000000     158.000000
+75%       121.000000   30641.220000  ...       0.000000     276.000000
+max     11875.000000  600000.000000  ...       0.000000     398.000000
+
+[8 rows x 60 columns]
+   store date  grocery  dairy  ...      bakcoup  liqcoup  week  date_parsed
+0      0           NaN    NaN  ...  1234.280029    -9.27   NaN          NaT
+1      0           NaN    NaN  ...  1179.709961    -4.58   NaN          NaT
+2      0           NaN    NaN  ...  1365.339966   -15.65   NaN          NaT
+3      0           NaN    NaN  ...  1288.939941    -2.60   NaN          NaT
+4      0           NaN    NaN  ...  1143.290039   -14.99   NaN          NaT
+
+[5 rows x 62 columns]
+count                  324133
+unique                   3408
+top       1993-09-14 00:00:00
+freq                      103
+first     1980-01-03 00:00:00
+last      2009-06-11 00:00:00
+Name: date_parsed, dtype: object
