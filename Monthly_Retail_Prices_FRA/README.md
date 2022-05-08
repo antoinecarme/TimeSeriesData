@@ -7,7 +7,7 @@ Months covered : from 1992-01-01 to 2022-03-01
 
 Products covered : 152
 
-Product  Names (in French) :
+Product  Names (in French, one seris for each product) :
 
 ```
 1 Cabillaud en tranche
