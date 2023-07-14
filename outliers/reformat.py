@@ -7,9 +7,9 @@ def to_date(idatetime_float):
     year = int(idatetime_float)
     percentage = idatetime_float - year
     year = int(year)
-    d = datetime.date(year, 1, 1);
-    d1 = d + datetime.timedelta(days=365*percentage)
-    return d1;
+    month = round(percentage * 12)
+    d = datetime.date(year, min(1 + month, 12), 1);
+    return d;
 
 
 df = pd.read_csv("before/cran_fpp2_gold.csv")
